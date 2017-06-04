@@ -35,7 +35,8 @@ namespace GausMethod
 			/*for (int i = 0; i < row; i++) {
 				answers [i] = 0;
 			}*/
-			for(int i=row-1; i>0; i--)
+			//обратный ход
+			for(int i=row-1; i>=0; i--)
 			{
 				double summ = 0;
 				for(int j=i+1; j<row; j++)
